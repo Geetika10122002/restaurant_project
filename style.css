@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f8f5f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #b58b6f;
+  color: #f8f5f0;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.menu-section {
+  width: 80%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #b58b6f;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+  font-size: 2rem;
+  color: #b58b6f;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #b58b6f;
+  padding-bottom: 0.5rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #f1ede8;
+  border-radius: 8px;
+}
+
+.menu-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item-details {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.item-details h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.2rem;
+}
+
+.item-details .description {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.3rem 0;
+}
+
+.item-details .price {
+  font-size: 1.3rem;
+  color: #fa0f22;
+  font-weight: bold;
+}
+
+.menu-item:not(:last-child) {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #b58b6f;
+  color: #f8f5f0;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
